@@ -23,7 +23,7 @@ const Header = () => {
         <div className="">
 
             <div className=''>
-                <nav className='lg:flex xr:flex xr:justify-center xr:gap-[6rem] xr:w-[414px] xr:h-[6rem] x:h-[6rem] xr:pt-[0.5rem] x:pt-[0.5rem] sam:pt-[0.5rem] pro:w-[428px] pro:gap-[7rem] x:w-[375px] x:flex x:justify-center x:gap-[6rem] sam:w-[360px] sam:flex sam:justify-center sam:gap-[3rem]'>
+                <nav className=' xr:flex xr:justify-center xr:gap-[6rem] xr:w-[414px] xr:h-[6rem] x:h-[6rem] xr:pt-[0.5rem] x:pt-[0.5rem] sam:pt-[0.5rem] pro:w-[428px] pro:gap-[7rem] x:w-[375px] x:flex x:justify-center x:gap-[6rem] sam:w-[360px] sam:flex sam:justify-center sam:gap-[3rem]'>
                     <div className='w-[7rem] xr:w-[6rem] x:w-[5rem] sam:w-[5rem]'>
                         <img className='' src={Logo} alt="" />
                     </div>

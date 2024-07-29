@@ -72,15 +72,17 @@ const Middle = () => {
                 {/* </div> */}
 
                 <hr className='mt-[3rem]  h-1 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700 xr:w-[315px] x:w-[315px] xr:ml-[3rem]  x:ml-[1.7rem]' />
-                <div className='xr:w-[414px] pro:w-[428px]'>
+                <div className='xr:w-[414px] pro:w-[428px] sam:w-[360px]'>
                     <h5 className="text-center text-3xl font-bold xr:w-[412px] x:w-[375px] pro:w-[428px] smm:w-[390px]">A creative thinker and problem solver, ready to help your company succeed</h5>
-                    <p className='text-[grey] font-medium mt-[2rem] text-xl smr:text-center xr:w-[413px] x:w-[375px] pro:w-[427px] smm:w-[390px]'>I'm a creative thinker with a knack for solving problems. I'm passionate about helping businesses achieve their goals through innovative solutions. I'm skilled in finding new and creative ways to solve complex problems, and I love bringing ideas to life. I'm eager to work with businesses that are ready to take their company to the next level. If you're looking for someone who can help you reach your goals. <button className='bg-[black] w-[8rem] h-[3rem] rounded-2xl text-[white]'>Contact Us</button></p>
-                    <div className="flex justify-center mt-[2rem] mr-[1rem] xr:w-[414px] x:w-[335px] xr:pr-[2rem] pro:w-[428px]">
-                        <img className='w-[15rem] xr:hidden x:hidden ' src={Head} alt="" />
-                        <img className='w-[15rem] xr:hidden x:hidden ' src={Light} alt="" />
+                    <p className='text-[grey] font-medium mt-[2rem] text-xl smr:text-center xr:w-[413px] x:w-[375px] pro:w-[427px] sam:w-[350px]'>I'm a creative thinker with a knack for solving problems. I'm passionate about helping businesses achieve their goals through innovative solutions. I'm skilled in finding new and creative ways to solve complex problems, and I love bringing ideas to life. I'm eager to work with businesses that are ready to take their company to the next level. If you're looking for someone who can help you reach your goals. <button className='bg-[black] w-[8rem] h-[3rem] rounded-2xl text-[white]'>Contact Us</button></p>
+                    
+                    
+                    <div className="flex justify-center mt-[2rem]  xr:w-[414px] x:w-[335px] xr:pr-[2rem] pro:w-[428px] sam:w-[358px]">
+                        <img className='w-[15rem] xr:hidden x:hidden sam:hidden ' src={Head} alt="" />
+                        <img className='w-[15rem] xr:hidden x:hidden sam:hidden' src={Light} alt="" />
                         <img className='w-[15rem] ' src={Head3} alt="" />
-                        <img className='w-[16rem] x:w-[15rem] ' src={Think} alt="" />
-                        <img className='w-[15rem] xr:hidden x:hidden ' src={Head2} alt="" />
+                        <img className='w-[16rem] x:w-[15rem] sam:w-[15rem]' src={Think} alt="" />
+                        <img className='w-[15rem] xr:hidden x:hidden sam:hidden' src={Head2} alt="" />
                     </div>
                 </div>
             </div>

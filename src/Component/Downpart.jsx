@@ -27,45 +27,45 @@ const Downpart = () => {
         </div>
       </div> */}
       <div className="">
-        <div className="text-center xr:font-bold xr:text-2xl xr:mr-[2.5rem] xr:pt-[3rem] pro:ml-[3rem] x:font-bold x:text-2xl x:mr-[0.5rem] x:pt-[3rem] smm:w-[390px]">
+        <div className="text-center font-bold text-2xl xr:mr-[2.5rem] xr:pt-[3rem] pro:ml-[3rem] x:mr-[0.5rem] x:pt-[3rem] sam:w-[360px] mt-[1rem]">
           <p>Happy Client Feedback</p>
         </div>
         <div className="">
-          <div className="xr:w-[18rem] xr:mt-[2rem] xr:ml-[4rem] x:w-[18rem] x:mt-[2rem] x:ml-[3rem]">
+          <div className="xr:w-[18rem] xr:mt-[2rem] xr:ml-[4rem] x:w-[18rem] x:mt-[2rem] x:ml-[3rem] sam:w-[17rem] sam:ml-[2rem] sam:mt-[1rem]">
             <img className='' src={Tastimonials} alt="" />
           </div>
           <div className="">
-            <p className='xr:w-[414px] xr:font-bold xr:text-3xl xr:text-center xr:mt-[2rem] pro:w-[428px] x:w-[375px] x:font-bold x:text-3xl x:text-center x:mt-[2rem]'>Testimonals from client</p>
-            <p className='xr:w-[414px] x:w-[375px] xr:text-center x:text-center x:font-semibold x:text-xl xr:font-semibold xr:text-xl pro:w-[428px] smm:w-[390px]'>"Snowdev provide Top notch of websites with a different ideas out of the box...more respect for him when its come to building websites with futures features"</p>
-            <a href="" className='xr:ml-[9rem] text-[blue] x:ml-[7rem]'>Made2clean.com.ng</a>
+            <p className='xr:w-[414px] font-bold text-3xl text-center xr:mt-[2rem] pro:w-[428px] x:w-[375px] x:mt-[2rem]'>Task Completed by me</p>
+            <p className='xr:w-[414px] x:w-[375px] text-center x:text-xl font-semibold xr:text-xl pro:w-[428px] sam:w-[360px] text-[grey] mt-[0.5rem]'>"Snowdev provide Top notch of websites with a different ideas out of the box..."<span className='text-[blue]'>myRideApp</span>,<span className='text-[blue]'>shelter</span></p>
+            <a href="" className='xr:ml-[9rem] text-[blue] x:ml-[7rem] sam:ml-[7rem]'>Made2clean.com.ng</a>
           </div>
         </div>
       </div>
 
       <div className="pt-[3rem] ">
-        <div className="xr:font-bold xr:text-4xl xr:text-center x:font-bold x:text-4xl x:text-center">
+        <div className="font-bold text-center text-4xl x:text-center">
           <p>My Skills</p>
         </div>
-        <div className="xr:w-[400px] x:w-[360px] xr:flex x:flex x:flex-col x:gap-[1rem] x:pt-[2rem] x:pl-[1rem] xr:flex-col xr:gap-[1rem] xr:pt-[2rem] xr:pl-[1rem] pro:w-[420px]">
-          <div className="bg-gray-200 shadow-lg xr:h-[6rem] x:h-[6rem] x:flex x:gap-[9rem] x:justify-center rounded-[2rem] xr:flex xr:gap-[11rem] xr:justify-center">
-            <p className='text-[black] xr:font-bold xr:text-2xl md:text-3xl xr:mt-[2rem] x:font-bold x:text-2xl x:mt-[2rem]'>HTML</p>
-            <img className='xr:w-[5rem] h-[4rem] xr:mt-[1rem] x:w-[4rem] x:mt-[1.2rem]' src={Html} alt="" />
+        <div className="xr:w-[400px] x:w-[360px] flex flex-col gap-[1rem] pt-[2rem] x:pl-[1rem]  xr:pl-[1rem] pro:w-[420px] sam:w-[357px]">
+          <div className="bg-gray-200 shadow-lg xr:h-[6rem] x:h-[6rem] flex x:gap-[9rem] justify-center rounded-[2rem] gap-[10rem] justify-center sam:h-[6rem]">
+            <p className='text-[black] md:text-3xl xr:mt-[2rem] font-bold text-2xl x:mt-[2rem] sam:mt-[2rem]'>HTML</p>
+            <img className='xr:w-[5rem] h-[4rem] xr:mt-[1rem] x:w-[4rem] x:mt-[1.2rem] sam:mt-[1.2rem] sam:w-[4.5rem]' src={Html} alt="" />
           </div>
-          <div className="bg-gray-200 shadow-lg xr:h-[6rem] rounded-[2rem] xr:flex xr:gap-[12.5rem] xr:justify-center x:h-[6rem] x:flex x:gap-[9rem] x:justify-center">
-            <p className='text-[black] xr:font-bold xr:text-2xl xr:mt-[2rem] x:font-bold x:text-2xl x:mt-[2rem]'>CSS</p>
-            <img className='xr:w-[6rem] h-[4rem] xr:mt-[1rem]  x:w-[6rem] x:mt-[1.2rem]' src={Css} alt="" />
+          <div className="bg-gray-200 shadow-lg h-[6rem] rounded-[2rem] flex gap-[10rem] justify-center">
+            <p className='text-[black] font-bold text-2xl xr:mt-[2rem] x:mt-[2rem] sam:mt-[2rem]'>CSS</p>
+            <img className='xr:w-[6rem] h-[4rem] xr:mt-[1rem] x:w-[6rem] x:mt-[1.2rem] sam:w-[6.7rem] sam:mt-[1.2rem]' src={Css} alt="" />
           </div>
-          <div className="bg-gray-200 shadow-lg xr:h-[6rem] rounded-[2rem] xr:flex xr:gap-[11rem] xr:justify-center x:h-[6rem] x:flex x:gap-[9rem] x:justify-center">
-            <p className='text-[black] xr:font-bold xr:text-2xl md:text-3xl xr:mt-[2rem] x:font-bold x:text-2xl x:mt-[2rem]'>REACT</p>
-            <img className='xr:w-[5rem] h-[4rem] xr:mt-[1rem] x:w-[5rem] x:mt-[1.2rem]' src={React} alt="" />
+          <div className="bg-gray-200 shadow-lg h-[6rem] rounded-[2rem] flex gap-[10rem] justify-center">
+            <p className='text-[black] font-bold text-2xl xr:mt-[2rem] x:mt-[2rem] sam:mt-[2rem]'>REACT</p>
+            <img className='xr:w-[6rem] h-[4rem] xr:mt-[1rem] x:w-[6rem] x:mt-[1.2rem] sam:w-[5rem] sam:mt-[1.2rem]' src={React} alt="" />
           </div>
-          <div className="bg-gray-200 shadow-lg xr:h-[6rem] rounded-[2rem] xr:flex xr:gap-[9rem] xr:justify-center x:h-[6rem] x:flex x:gap-[5rem] x:justify-center">
-            <p className='text-[black] xr:font-bold xr:text-2xl xr:mt-[1.5rem] x:font-bold x:text-2xl x:mt-[2rem]'>TAILWINDS</p>
-            <img className='xr:w-[5rem] h-[4rem] xr:mt-[1rem] x:w-[5rem] x:mt-[1.2rem]' src={Tailwind} alt="" />
+          <div className="bg-gray-200 shadow-lg h-[6rem] rounded-[2rem] flex gap-[7rem] justify-center">
+            <p className='text-[black] font-bold text-2xl xr:mt-[2rem] x:mt-[2rem] sam:mt-[2rem]'>TAILWINDS</p>
+            <img className='xr:w-[6rem] h-[4rem] xr:mt-[1rem] x:w-[6rem] x:mt-[1.2rem] sam:w-[5rem] sam:mt-[1.2rem]' src={Tailwind} alt="" />
           </div>
-          <div className="bg-gray-200 shadow-lg xr:h-[6rem]  rounded-[2rem] xr:flex xr:gap-[9rem] xr:justify-center x:h-[6rem] x:flex x:gap-[5rem] x:justify-center">
-            <p className='text-[black] xr:font-bold xr:text-2xl xr:mt-[2rem] x:font-bold x:text-2xl x:mt-[2rem]'>JAVASCRIPT</p>
-            <img className='xr:w-[5rem] h-[4rem] xr:mt-[1rem] x:w-[5rem] x:mt-[1.2rem]' src={Java} alt="" />
+          <div className="bg-gray-200 shadow-lg h-[6rem] rounded-[2rem] flex gap-[7rem] justify-center">
+            <p className='text-[black] font-bold text-2xl xr:mt-[2rem] x:mt-[2rem] sam:mt-[2rem]'>JAVASCRIPT</p>
+            <img className='xr:w-[6rem] h-[4rem] xr:mt-[1rem] x:w-[6rem] x:mt-[1.2rem] sam:w-[4rem] sam:mt-[1.2rem]' src={Java} alt="" />
           </div>
         </div>
       </div>

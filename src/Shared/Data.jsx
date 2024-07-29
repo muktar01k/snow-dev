@@ -26,7 +26,7 @@ export const WelcomeDetails = [
     {
         text2: "Hello, Welcome To",
         text3: "SNOWDEV",
-        text4: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem tenetur cum accusamus.🤪 Fuga quo aliquid dolor repudiandae assumenda reprehenderit nesciunt magni est. Non pariatur 🥰 vero perspiciatis ipsa voluptatum mollitia eligendi! Culpa illo 🥰repellendus facilis vel dolorum adipisci quas ut",
+        text4: "i'm a frontend software engineer with a passion for building high-performance websites and applications usuing React JS. With a strong focus on user exprience,responsive design, and innovative problem-solving, i craft dynamic and interactive web dolutions that drive results. I'm dedicated to staying up-to-date with the latest industry trends and technologies to continuosly improve my skills and experties",
     },
     // {
     //     ImagePicture1: {Programmer},

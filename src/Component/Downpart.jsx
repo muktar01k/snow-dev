@@ -26,8 +26,8 @@ const Downpart = () => {
           <img className='ml-[5rem] sm:ml-[0rem] mt-[4rem] w-[23rem]' src={Africa} alt="" />
         </div>
       </div> */}
-      <div className="">
-        <div className="text-center font-bold text-2xl xr:mr-[2.5rem] xr:pt-[3rem] pro:ml-[3rem] x:mr-[0.5rem] x:pt-[3rem] sam:w-[360px] mt-[1rem]">
+      <div id='Portfolio' className="">
+        <div  className="text-center font-bold text-2xl xr:mr-[2.5rem] xr:pt-[3rem] pro:ml-[3rem] x:mr-[0.5rem] x:pt-[3rem] sam:w-[360px] mt-[1rem]">
           <p>Happy Client Feedback</p>
         </div>
         <div className="">
@@ -42,7 +42,7 @@ const Downpart = () => {
         </div>
       </div>
 
-      <div className="pt-[3rem] ">
+      <div id='skills' className="pt-[3rem] ">
         <div className="font-bold text-center text-4xl x:text-center">
           <p>My Skills</p>
         </div>
@@ -70,8 +70,8 @@ const Downpart = () => {
         </div>
       </div>
 
-      <p className='text-center xr:text-4xl font-bold xr:mt-[3rem] xr:mr-[1.5rem] x:text-4xl font-bold x:mt-[3rem] x:mr-[rem]'>Reach Out To Us</p>
-      <div className="xr:mt-[2rem] x:mt-[2rem] smm:ml-[0.7rem]">
+      <p className='text-center  font-bold text-4xl font-bold  mt-[2rem]'>Reach Out To Us</p>
+      <div id='Contact us' className="xr:mt-[2rem] x:mt-[2rem] smm:ml-[0.7rem]">
 
         {
           Oranges.map((Orange) => (<Reachout {...Orange} />))

@@ -2,13 +2,7 @@ import Programmer from '../assets/programmer.jpg'
 import Codeset from '../assets/codeset.jpg'
 import Macset from '../assets/macset.jpg'
 
-export const Details = ({ text }) => {
-    return (
-        <div className='xr:pt-[0.6rem]'>
-            <a href="">{text}</a>
-        </div>
-    )
-}
+
 
 export const WelcomeText = ({ text2, text3, text4 }) => {
     return (

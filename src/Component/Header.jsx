@@ -7,8 +7,8 @@ import Logo from '../assets/logo.png'
 import Ham from '../assets/hamburger.png'
 import { useState } from 'react'
 import Button from '../Shared/Button'
-import { NavDetails, WelcomeDetails, WelcomePictures } from '../Shared/Data'
-import { Details, WelcomeText } from '../Shared/Cards'
+import {  WelcomeDetails, WelcomePictures } from '../Shared/Data'
+import { WelcomeText } from '../Shared/Cards'
 // import { WelcomeImages } from '../Shared/ImageData'
 
 const Header = () => {
@@ -33,10 +33,12 @@ const Header = () => {
                         </div>
                         {toggleham && (
                             <div className="xr:absolute x:absolute sam:absolute lg:mt-[2rem] xr:bg-[#13BCB3] x:bg-[#13BCB3]  xr:h-[18rem]  x:h-[16rem] xr:w-[11rem] x:w-[9rem] xr:rounded-[0.5rem] x:rounded-[0.5rem] sam:bg-[#13BCB3] sam:w-[11rem] sam:h-[15rem] sam:rounded-xl">
-                                <div className='text-xl lg:pt-[3rem] text-lg text-[grey]  xr:pt-[0.5rem] sam:pt-[0.5rem]'>
-                                    {
-                                        NavDetails.map((NavDetail) => (<Details {...NavDetail} />))
-                                    }
+                                <div className='text-xl lg:pt-[3rem] text-lg text-[grey]  xr:pt-[0.5rem] sam:pt-[0.5rem] flex flex-col gap-[0.4rem]'>
+                                    <a href="#home">Home</a>
+                                    <a href="#About">About</a>
+                                    <a href="#Portfolio">Portfolio</a>
+                                    <a href="#skills">skills</a>
+                                    <a href="#Experties">Experties</a>
 
                                     {/* <a href="">About</a>
                                     <a href="">Location</a>
@@ -44,7 +46,8 @@ const Header = () => {
                                     <a href="">Portfolio</a>
                                     
                                     <a href="">Payment</a> */}
-                                    <Button className='h-[3rem] lg:ml-[3rem]  bg-[orange] mt-[2.5rem] mb-[1rem] w-[10rem]  rounded-3xl sm:ml-[0.2rem] sm:w-[8rem]  ' Value='Contact Us' />
+
+                                    <a id='#Contact us' className='h-[3rem] lg:ml-[3rem]  bg-[orange] mt-[0.1rem] mb-[1rem] w-[10rem]  rounded-3xl  text-[black]'/> Contact us<a/>
                                     {/* <button className='h-[3rem] ml-[3rem]  bg-[orange] mt-[2.5rem] mb-[1rem] w-[10rem]  rounded-3xl sm:ml-[0.2rem] sm:w-[8rem]  '>Contact Us</button> */}
                                 </div>
                             </div>

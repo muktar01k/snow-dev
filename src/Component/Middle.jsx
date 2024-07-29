@@ -33,7 +33,7 @@ const Middle = () => {
 
     return (
         <div className="">
-            <div className="text-center items-center">
+            <div id='Experties' className="text-center items-center">
                 <h3 className='lg:text-4xl text-center font-Josefin Sans font-semibold pt-[2rem] xr:text-3xl x:text-3xl xr:mr-[2.5rem] x:mr-[0.5rem]  items-center pro:text-4xl pro:ml-[4rem]'>My Experties</h3>
                 <p className='mt-[1rem] text-3xl text-center font-bold xr:w-[414px] text-center items-center pro:w-[428px]'>We deliver Top Notch In Any Of This Range</p>
                 {/* <div className="flex divide-x-4 mt-[2rem] sm:flex-col sm:gap-[2rem] sm:justify-center gap-[4rem]">

@@ -4,23 +4,23 @@ import Codeset from '../assets/codeset.jpg'
 import Macset from '../assets/macset.jpg'
 import Service from '../assets/service-icon3.png'
 
-export const NavDetails = [
-    {
-        text: "About us",
-    },
-    {
-        text: "Location",
-    },
-    {
-        text: "Service",
-    },
-    {
-        text: "Portfolio",
-    },
-    {
-        text: "Payment",
-    },
-]
+// export const NavDetails = [
+//     {
+//         text: "About us",
+//     },
+//     {
+//         text: "Location",
+//     },
+//     {
+//         text: "Service",
+//     },
+//     {
+//         text: "Portfolio",
+//     },
+//     {
+//         text: "Payment",
+//     },
+// ]
 
 export const WelcomeDetails = [
     {

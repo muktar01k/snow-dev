@@ -51,7 +51,7 @@ const Middle = () => {
                     </div>
             </div>  */}
 
-                <div className='flex flex-col justify-center items-center xr:w-[414px] x:w-[360px] x:ml-[0.4rem] max:ml-[1rem]'>
+                <div className='flex flex-col justify-center items-center xr:w-[414px] x:w-[360px] x:ml-[0.4rem] max:w-[390px]'>
                     {RedCards.map((Redcard) => (<DivCard {...Redcard} />))}
                 </div>
 
@@ -74,7 +74,7 @@ const Middle = () => {
                 <hr className='mt-[3rem]  h-1 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700 xr:w-[315px] x:w-[315px] xr:ml-[3rem]  x:ml-[1.7rem]' />
                 <div className='xr:w-[414px] pro:w-[428px] sam:w-[360px]'>
                     <h5 className="text-center text-3xl font-bold xr:w-[412px] x:w-[375px] pro:w-[428px] smm:w-[390px]">A creative thinker and problem solver, ready to help your company succeed</h5>
-                    <p className='text-[grey] font-medium mt-[2rem] text-xl smr:text-center xr:w-[413px] x:w-[375px] pro:w-[427px] sam:w-[350px]'>I'm a creative thinker with a knack for solving problems. I'm passionate about helping businesses achieve their goals through innovative solutions. I'm skilled in finding new and creative ways to solve complex problems, and I love bringing ideas to life. I'm eager to work with businesses that are ready to take their company to the next level. If you're looking for someone who can help you reach your goals. <a href="href='https://wa.me/2349132630151'"><button  className='bg-[black] w-[8rem] h-[3rem] rounded-2xl text-[white]'>Contact Us</button></a></p>
+                    <p className='text-[grey] font-medium mt-[2rem] text-xl smr:text-center xr:w-[413px] x:w-[375px] pro:w-[427px] sam:w-[350px]'>I'm a creative thinker with a knack for solving problems. I'm passionate about helping businesses achieve their goals through innovative solutions. I'm skilled in finding new and creative ways to solve complex problems, and I love bringing ideas to life. I'm eager to work with businesses that are ready to take their company to the next level. If you're looking for someone who can help you reach your goals. <a href='https://wa.me/2349132630151'><button  className='bg-[black] w-[8rem] h-[3rem] rounded-2xl text-[white]'>Contact Us</button></a></p>
                     
                     
                     <div className="flex justify-center  mt-[2rem]  xr:w-[414px] x:w-[335px]  sam:w-[358px]">

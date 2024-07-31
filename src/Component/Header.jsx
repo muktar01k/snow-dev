@@ -32,8 +32,8 @@ const Header = () => {
                             <img className='' src={Ham} alt="" />
                         </div>
                         {toggleham && (
-                            <div className="xr:absolute x:absolute sam:absolute lg:mt-[2rem] xr:bg-[#13BCB3] x:bg-[#13BCB3]  xr:h-[18rem]  x:h-[16rem] xr:w-[11rem] x:w-[9rem] xr:rounded-[0.5rem] x:rounded-[0.5rem] sam:bg-[#13BCB3] sam:w-[11rem] sam:h-[15rem] sam:rounded-xl">
-                                <div className='text-xl lg:pt-[3rem] text-lg text-[grey]  xr:pt-[0.5rem] sam:pt-[0.5rem] flex flex-col gap-[0.4rem]'>
+                            <div className="xr:absolute x:absolute sam:absolute lg:mt-[2rem] xr:bg-[#13BCB3] x:bg-[#13BCB3]  xr:h-[18rem]  x:h-[16rem] xr:w-[11rem] max:w-[11rem] x:w-[9rem] xr:rounded-[0.5rem] x:rounded-[0.5rem] sam:bg-[#13BCB3] sam:w-[11rem] sam:h-[15rem] sam:rounded-xl">
+                                <div className='text-xl lg:pt-[3rem] text-lg text-[grey]  xr:pt-[0.5rem] sam:pt-[0.5rem] flex flex-col gap-[0.5rem]'>
                                     <a href="#home">Home</a>
                                     <a href="#About">About</a>
                                     <a href="#Portfolio">Portfolio</a>
@@ -46,9 +46,10 @@ const Header = () => {
                                     <a href="">Portfolio</a>
                                     
                                     <a href="">Payment</a> */}
-
-                                    <a href='https://wa.me/2349132630151' id='#Contact us' className='h-[3rem] lg:ml-[3rem]  bg-[orange] mt-[0.1rem] mb-[1rem] w-[10rem]  rounded-3xl  text-[black]'/> Contact us<a/>
+<div className="h-[3rem] bg-[orange] mt-[0.1rem] mb-[1rem] w-[9rem] rounded-3xl text-center pt-[0.5rem]">
+                                    <a href='https://wa.me/2349132630151' id='#Contact us'/> Contact us<a/>
                                     {/* <button className='h-[3rem] ml-[3rem]  bg-[orange] mt-[2.5rem] mb-[1rem] w-[10rem]  rounded-3xl sm:ml-[0.2rem] sm:w-[8rem]  '>Contact Us</button> */}
+                                </div>
                                 </div>
                             </div>
                         )

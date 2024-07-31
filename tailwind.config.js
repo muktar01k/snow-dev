@@ -15,6 +15,7 @@ export default {
       "xr":"414px",
       "x":"375px",
       "sam":"360px",
+      "max":"390px"
     },
     // animation:{
     //   "bounce":bo

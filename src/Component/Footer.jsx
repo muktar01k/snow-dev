@@ -6,7 +6,7 @@ import Logo from "../assets/logo.png"
 export const Futter = () => {
 
     return (
-        <div className="bg-[#211e39] xr:h-[40rem] xr:w-[414px] pro:w-[428px] x:w-[375px] x:h-[30rem] mt-[2rem] sam:w-[360px]">
+        <div className="bg-[#211e39] xr:h-[40rem] xr:w-[414px] pro:w-[428px] x:w-[375px] x:h-[30rem] mt-[2rem] sam:w-[360px] max:w-[390px]">
             <div className="xr:pt-[2rem] x:pt-[2rem]">
                 {/* <div className="">  */}
                 <div className="w-[10rem] xr:ml-[8rem] x:ml-[6rem] sam:ml-[6rem]">

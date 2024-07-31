@@ -47,7 +47,7 @@ const Header = () => {
                                     
                                     <a href="">Payment</a> */}
 
-                                    <a id='#Contact us' className='h-[3rem] lg:ml-[3rem]  bg-[orange] mt-[0.1rem] mb-[1rem] w-[10rem]  rounded-3xl  text-[black]'/> Contact us<a/>
+                                    <a href='https://wa.me/2349132630151' id='#Contact us' className='h-[3rem] lg:ml-[3rem]  bg-[orange] mt-[0.1rem] mb-[1rem] w-[10rem]  rounded-3xl  text-[black]'/> Contact us<a/>
                                     {/* <button className='h-[3rem] ml-[3rem]  bg-[orange] mt-[2.5rem] mb-[1rem] w-[10rem]  rounded-3xl sm:ml-[0.2rem] sm:w-[8rem]  '>Contact Us</button> */}
                                 </div>
                             </div>

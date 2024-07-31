@@ -12,10 +12,10 @@ export const WelcomeText = ({ text2, text3, text4 }) => {
                 <h1 className='lg:text-8xl font-bold lg:mt-[1rem] xr:ml-[1rem] x:ml-[1rem] xr:font-bold x:font-bold xr:text-[4rem] x:text-[4rem] pro:text-[4rem] sam:text-[3.5rem]'>{text3}</h1>
             </div>
 
-            <p className='xr:w-[410px] pro:w-[428px] pro:ml-[0.01rem] font-Josefin Sans text-[grey] font-semibold xr:ml-[0.2rem] x:w-[375px] pad:w-[768px] pad:text-2xl sam:w-[360px]'>{text4}</p>
+            <p className='xr:w-[410px] max:w-[390px] font-Josefin Sans text-[grey] font-semibold xr:ml-[0.2rem] x:w-[375px] pad:w-[768px] pad:text-2xl sam:w-[360px]'>{text4}</p>
 
             <div className="justify-center mt-[1rem] x:mt-[2rem]">
-                <img className=' rounded-r-3xl rounded-b-3xl rounded-t-3xl border-[0.5rem] border-indigo-500 lg:w-[20rem] h-[13rem]  xr:mt-[2rem] xr:ml-[2rem] x:ml-[0.5rem] smm:ml-[1rem] ' src={Programmer} alt="ImagePcture1" />
+                <img className=' rounded-r-3xl rounded-b-3xl rounded-t-3xl border-[0.5rem] border-indigo-500 lg:w-[20rem] h-[13rem]  xr:mt-[2rem] xr:ml-[2rem] x:ml-[0.5rem] max:ml-[1rem] ' src={Programmer} alt="ImagePcture1" />
                 <img className=' md:rounded-r-3xl rounded-r-3xl rounded-b-3xl rounded-t-3xl border-[0.5rem] border-indigo-500 xr:hidden x:hidden sam:hidden' src={Codeset} alt="ImagePcture1" />
                 <img className=' w-[25rem] h-[15rem] rounded-r-3xl rounded-b-3xl rounded-t-3xl border-[0.5rem] border-indigo-500 xr:hidden x:hidden sam:hidden' src={Macset} alt="ImagePcture1" />
             </div>

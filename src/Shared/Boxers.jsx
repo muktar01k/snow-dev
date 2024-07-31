@@ -16,31 +16,6 @@ export const DivCard = ({ words1, words2 }) => {
         </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         // <div className="bg-[red] mt-[1rem] cursor-pointer w-[35rem] sm:w-[22rem] smxx:w-[20rem] smxx:ml-[1rem]  sm:h-[20rem] rounded-xl h-[10rem]  pt-[0.5rem] sm:shadow-lg sm:shadow-[#e9eefc] md:w-[22rem] md:ml-[0.5rem] md:h-[22rem] mdx:w-[27rem] mdx:h-[17rem] ">
         //     {/* <div className="bg-[grey] w-[7rem] pl-[2rem] h-[7rem] pt-[2rem] rounded-full mt-[1rem] sm:hidden">
         //             <img className='w-[3rem]' src={Service} alt="" />

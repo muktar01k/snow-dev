@@ -57,21 +57,21 @@ const Downpart = () => {
           </div>
           <div className="bg-gray-200 shadow-lg h-[6rem] rounded-[2rem] flex gap-[10rem] justify-center">
             <p className='text-[black] font-bold text-2xl xr:mt-[2rem] x:mt-[2rem] sam:mt-[2rem]'>REACT</p>
-            <img className='xr:w-[6rem] h-[4rem] xr:mt-[1rem] x:w-[6rem] x:mt-[1.2rem] sam:w-[5rem] sam:mt-[1.2rem]' src={React} alt="" />
+            <img className='xr:w-[6rem] h-[4rem] xr:mt-[1rem] x:w-[6rem] x:mt-[1.2rem] sam:w-[5rem] sam:mt-[1.2rem] max:w-[4.5rem]' src={React} alt="" />
           </div>
-          <div className="bg-gray-200 shadow-lg h-[6rem] rounded-[2rem] flex gap-[7rem] justify-center">
+          <div className="bg-gray-200 shadow-lg h-[6rem] rounded-[2rem] flex gap-[7rem] justify-center max:gap-[6rem]">
             <p className='text-[black] font-bold text-2xl xr:mt-[2rem] x:mt-[2rem] sam:mt-[2rem]'>TAILWINDS</p>
-            <img className='xr:w-[6rem] h-[4rem] xr:mt-[1rem] x:w-[6rem] x:mt-[1.2rem] sam:w-[5rem] sam:mt-[1.2rem]' src={Tailwind} alt="" />
+            <img className='xr:w-[6rem] h-[4rem] xr:mt-[1rem] x:w-[6rem] x:mt-[1.2rem] sam:w-[5rem] sam:mt-[1.2rem] max:w-[4.5rem]' src={Tailwind} alt="" />
           </div>
-          <div className="bg-gray-200 shadow-lg h-[6rem] rounded-[2rem] flex gap-[7rem] justify-center">
+          <div className="bg-gray-200 shadow-lg h-[6rem] rounded-[2rem] flex gap-[7rem] justify-center max:gap-[5rem]">
             <p className='text-[black] font-bold text-2xl xr:mt-[2rem] x:mt-[2rem] sam:mt-[2rem]'>JAVASCRIPT</p>
-            <img className='xr:w-[6rem] h-[4rem] xr:mt-[1rem] x:w-[6rem] x:mt-[1.2rem] sam:w-[4rem] sam:mt-[1.2rem]' src={Java} alt="" />
+            <img className='xr:w-[6rem] h-[4rem] xr:mt-[1rem] x:w-[6rem] x:mt-[1.2rem] sam:w-[4rem] sam:mt-[1.2rem] max:w-[4.5rem]' src={Java} alt="" />
           </div>
         </div>
       </div>
 
       <p className='text-center  font-bold text-4xl font-bold  mt-[2rem]'>Reach Out To Us</p>
-      <div id='Contact us' className="xr:mt-[2rem] x:mt-[2rem] smm:ml-[0.7rem]">
+      <div id='Contact us' className="xr:mt-[2rem] x:mt-[2rem] max:ml-[0.7rem]">
 
         {
           Oranges.map((Orange) => (<Reachout {...Orange} />))
